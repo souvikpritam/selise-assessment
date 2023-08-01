@@ -1,0 +1,100 @@
+.cform-coupon-wrapper .coupon-submit-loader,
+.cform-wrapper .cform-group .cform-submit-loader {
+	width: 30px;
+	height: 30px;
+	display: none;
+}
+
+.cform-wrapper .cform-group input[type="text"],
+.cform-wrapper .cform-group input[type="email"] {
+	border-radius: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+.modal-body .cform-input-group input[type="text"],
+.modal-body .cform-input-group input[type="email"],
+.modal-body .cform-input-group input[type="number"] {
+	border-radius: 2px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.modal-body .cform-input-group {
+	margin-bottom: 15px;
+}
+
+.cform-wrapper .cform-group .coupon_code {
+	width: 50% !important;
+}
+
+.coupon_code_wrapper .cform-input-group input[type="text"],
+.admin_email_wrapper .cform-input-group input[type="email"] {
+	width: 30%;
+	border-radius: 2px;
+    padding: 5px 10px;
+}    
+
+.cform-wrapper .cform-group,.cform-coupon-wrapper h3 {
+	margin-bottom: 20px;
+}
+
+.cform-wrapper .cform-group label {
+	font-size: 18px;
+}
+
+.cform-wrapper .cform-dropdown-group select {
+	padding: 10px;
+}
+
+.cform-wrapper .cform-group input[type="submit"] {
+	border: 1px solid;
+    border-radius: 0px;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+    transition: 0.3s;
+}
+
+.coupon_code_wrapper .cform-input-group input[type="submit"],
+.admin_email_wrapper .cform-input-group input[type="submit"] {
+	border: 1px solid;
+    border-radius: 0px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 9px 20px 9px 20px;
+    transition: 0.3s;
+}
+
+.coupon_code_wrapper .cform-input-group input[type="submit"]:hover,
+.admin_email_wrapper .cform-input-group input[type="submit"]:hover {
+	background-color: #fff !important;
+	color: #007bff !important;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.cform-wrapper .cform-group input[type="submit"]:hover {
+	background-color: #fff !important;
+	color: #000 !important;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.form-controller-wrapper {
+	margin-top: 15px;
+}
+.form-controller-wrapper button.btn.btn-primary {
+    margin: 10px 10px 15px 0px;
+}
+
+.coupon_code_wrapper, .admin_email_wrapper {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.cform-group .coupon_msg,
+.coupon-code-msg,.admin_email-msg {
+	color: red;
+}
+
